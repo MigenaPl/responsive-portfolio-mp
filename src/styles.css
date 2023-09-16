@@ -77,6 +77,12 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+
+img {
+  max-width: 50%;
+  border-radius: 10%;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 56px;
