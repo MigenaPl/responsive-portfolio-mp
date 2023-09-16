@@ -1,0 +1,68 @@
+:root {
+  --main-title: "Playfair Display", serif;
+  --secondary-text: "Poppins", sans-serif;
+  /*light theme*/
+  --lgt-background-color: #f8f0e5;
+  --lgt-title-color: #0f2c59;
+  --lgt-uppertitle-color: #4f709c;
+  --lgt-subtitle-color: #30475e;
+  --lgt-pharagraph-color: #290001;
+  --lgt-btn-background-color: #cbaf87;
+  --lgt-btn-text-color: #f5efe7;
+  --lgt-btn-hover-background-color: #4f709c;
+  --lgt-btn-hover-text-color: #f5efe7;
+
+  /*dark theme*/
+  --drk-background-color: #0f2c59;
+  --drk-title-color: #f5efe7;
+  --drk-uppertitle-color: #cbaf87;
+  --drk-subtitle-color: #eadbc8;
+  --drk-pharagraph-color: #dbcbbd;
+  --drk-btn-background-color: #4f709c;
+  --drk-btn-text-color: #0f2c59;
+  --drk-btn-hover-background-color: #cbaf87;
+  --drk-btn-hover-text-color: #0f2c59;
+}
+
+h2 {
+  font-family: var(--secondary-text);
+  color: var(--lgt-uppertitle-color);
+  font-size: 36px;
+  font-weight: bold;
+}
+h1 {
+  color: var(--lgt-title-color);
+  font-family: var(--main-title);
+  font-size: 96px;
+  font-weight: bold;
+}
+h3 {
+  font-family: var(---secondary-text);
+  color: var(--lgt-subtitle-color);
+  font-size: 24px;
+  font-weight: normal;
+}
+.hero {
+  background-color: var(--lgt-background-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h2 {
+  margin: 0;
+}
+.hero h3 {
+  line-height: 2;
+}
+.btn-branding {
+  background: var(--lgt-btn-background-color);
+  color: var(--lgt-btn-text-color);
+  font-family: var(--secondary-text);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+.btn-branding:hover {
+  background: var(--lgt-btn-hover-background-color);
+  color: var(--lgt-btn-hover-text-color);
+}
