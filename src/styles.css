@@ -38,7 +38,7 @@ h1 {
 h3 {
   font-family: var(---secondary-text);
   color: var(--lgt-subtitle-color);
-  font-size: 24px;
+  font-size: 28px;
   font-weight: normal;
 }
 .hero {
@@ -51,7 +51,9 @@ h3 {
   font-weight: bold;
 }
 .hero h3 {
-  line-height: 2;
+  line-height: 1.5;
+  font-size: 24px;
+  font-weight: normal;
 }
 .btn-branding {
   background: var(--lgt-btn-background-color);
@@ -74,4 +76,17 @@ p {
 }
 .project-description {
   padding: 120px 60px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 56px;
+    line-height: 2;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
