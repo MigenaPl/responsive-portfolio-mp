@@ -11,6 +11,7 @@
   --lgt-btn-text-color: #f5efe7;
   --lgt-btn-hover-background-color: #4f709c;
   --lgt-btn-hover-text-color: #f5efe7;
+  --lgt-btn-theme-back: rgba(248, 240, 229, 0.5);
 
   /*dark theme*/
   --drk-background-color: #0f2c59;
@@ -23,7 +24,46 @@
   --drk-btn-hover-background-color: #cbaf87;
   --drk-btn-hover-text-color: #0f2c59;
 }
+.navbar-toggler-branding {
+  border-color: transparent;
+  color: var(--lgt-uppertitle-color);
+}
 
+.nav-branding {
+  background-color: var(--lgt-background-color);
+  color: var(--lgt-btn-text-color);
+  font-family: var(--secondary-text);
+}
+
+.navbar-brand {
+  font-size: 18px;
+  color: var(--lgt-uppertitle-color);
+}
+.navbar-brand:hover {
+  color: var(--drk-uppertitle-color);
+}
+
+.nav-link {
+  color: var(--lgt-paragraph-color);
+}
+
+.nav-link:hover {
+  color: var(--lgt-uppertitle-color);
+}
+.switch-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.btn-theme-switch {
+  font-size: 28px;
+  color: var(--lgt-btn-background-color);
+  border: none;
+}
+.btn-theme-switch:hover {
+  color: var(--drk-background-color);
+}
 h2 {
   font-family: var(--secondary-text);
   color: var(--lgt-uppertitle-color);
@@ -63,16 +103,23 @@ h3 {
   line-height: 27px;
   padding: 15px 30px;
   border-radius: 30px;
+  max-width: 250px;
 }
 .btn-branding:hover {
   background: var(--lgt-btn-hover-background-color);
   color: var(--lgt-btn-hover-text-color);
 }
+
 p {
   font-weight: normal;
   font-size: 16px;
   color: var(--lgt-paragraph-color);
   line-height: 30px;
+}
+
+.home-container {
+  padding: 80px 20px;
+  justify-content: center;
 }
 .project-description {
   padding: 120px 60px;
@@ -83,32 +130,16 @@ img {
   border-radius: 10%;
 }
 
-.nav-branding {
-  color: var(--lgt-btn-text-color);
-  font-family: var(--secondary-text);
-}
-
-.navbar-brand {
-  font-size: 18px;
-  color: var(--lgt-uppertitle-color);
-}
-.navbar-brand:hover {
-  color: var(--drk-uppertitle-color);
-}
-
-.nav-link {
-  color: var(--lgt-paragraph-color);
-}
-
-.nav-link:hover {
-  color: var(--lgt-uppertitle-color);
-}
-
 @media (max-width: 960px) {
+  h2 {
+    font-size: 24px;
+    line-height: 1;
+  }
   h1 {
     font-size: 56px;
     line-height: 2;
   }
+
   .hero {
     padding: 80px 20px;
   }
