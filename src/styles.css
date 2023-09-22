@@ -54,12 +54,13 @@
   background-color: rgba(255, 255, 255, 0.5);
   padding: 5px 10px;
   border-radius: 30px;
-  margin-bottom: 20px;
 }
 .btn-theme-switch {
   font-size: 28px;
   color: var(--lgt-btn-background-color);
   border: none;
+  text-align: right;
+  margin-bottom: 20px;
 }
 .btn-theme-switch:hover {
   color: var(--drk-background-color);
@@ -104,6 +105,7 @@ h3 {
   padding: 15px 30px;
   border-radius: 30px;
   max-width: 250px;
+  align-content: center;
 }
 .btn-branding:hover {
   background: var(--lgt-btn-hover-background-color);
@@ -119,7 +121,6 @@ p {
 
 .home-container {
   padding: 80px 20px;
-  justify-content: center;
 }
 .project-description {
   padding: 120px 60px;
@@ -128,6 +129,17 @@ p {
 img {
   max-width: 50%;
   border-radius: 10%;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 32px;
+  margin: 0 300px;
+}
+.contact-icons i {
+  padding: 5px;
 }
 
 @media (max-width: 960px) {
