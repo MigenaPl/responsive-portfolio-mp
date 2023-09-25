@@ -62,7 +62,7 @@
   color: var(--lgt-btn-background-color);
   border: none;
   text-align: right;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .btn-theme-switch:hover {
   color: var(--drk-background-color);
@@ -147,6 +147,7 @@ img {
 
 .contact-icons i:hover {
   color: var(--lgt-uppertitle-color);
+  cursor: pointer;
 }
 
 /* dark theme */
