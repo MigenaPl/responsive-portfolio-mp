@@ -15,6 +15,7 @@
 
   /*dark theme*/
   --drk-background-color: #0f2c59;
+  --drk-background-color-two: #04152f;
   --drk-title-color: #f5efe7;
   --drk-uppertitle-color: #cbaf87;
   --drk-subtitle-color: #eadbc8;
@@ -63,6 +64,7 @@
   border: none;
   text-align: right;
   margin-bottom: 40px;
+  margin-right: 10px;
 }
 .btn-theme-switch:hover {
   color: var(--drk-background-color);
@@ -152,10 +154,14 @@ img {
 
 /* dark theme */
 .dark .page-background {
-  background-color: var(--lgt-paragraph-color);
+  background-color: var(--drk-background-color-two);
 }
 .dark .navbar-toggler-branding {
   background-color: var(--lgt-btn-background-color);
+  color: var(--drk-uppertitle-color);
+}
+.dark .navbar-toggler-branding:hover {
+  background-color: var(--lgt-btn-hover-background-color);
   color: var(--drk-uppertitle-color);
 }
 
