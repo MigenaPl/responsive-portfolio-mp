@@ -27,6 +27,9 @@
 }
 
 /* light theme */
+.page-background {
+  text-align: center;
+}
 .navbar-toggler-branding {
   border-color: transparent;
   color: var(--lgt-uppertitle-color);
@@ -109,7 +112,6 @@ h3 {
   padding: 15px 30px;
   border-radius: 30px;
   max-width: 250px;
-  align-content: center;
 }
 .btn-branding:hover {
   background: var(--lgt-btn-hover-background-color);
