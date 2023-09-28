@@ -89,6 +89,13 @@ h3 {
   font-size: 28px;
   font-weight: normal;
 }
+h4 {
+  color: var(--drk-uppertitle-color);
+  font-family: var(--main-title);
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .hero {
   background-color: var(--lgt-background-color);
   text-align: center;
@@ -120,7 +127,7 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--lgt-paragraph-color);
   line-height: 30px;
 }
@@ -167,6 +174,22 @@ img {
 
 .footer-branding a:hover {
   color: var(--lgt-uppertitle-color);
+}
+
+/*about page*/
+.about-container {
+}
+.about-container h1 {
+  font-size: 46px;
+}
+.about-container h2 {
+  font-size: 26px;
+}
+.about-container .left-side {
+  text-align: right;
+}
+.about-container .right-side {
+  text-align: left;
 }
 
 /* dark theme */
