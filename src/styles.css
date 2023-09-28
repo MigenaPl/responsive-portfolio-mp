@@ -63,7 +63,7 @@
   color: var(--lgt-btn-background-color);
   border: none;
   text-align: right;
-  margin-bottom: 90px;
+  margin-bottom: 100px;
   margin-right: 10px;
 }
 .btn-theme-switch:hover {
@@ -140,7 +140,6 @@ img {
   justify-content: space-evenly;
   text-align: center;
   font-size: 32px;
-  padding-bottom: 40px;
 }
 
 .contact-icons i {
@@ -150,6 +149,22 @@ img {
 .contact-icons i:hover {
   color: var(--lgt-uppertitle-color);
   cursor: pointer;
+}
+
+.footer-branding {
+  text-align: center;
+  font-family: var(---secondary-text);
+  font-size: 16px;
+  padding: 20px;
+  color: var(--lgt-paragraph-color);
+}
+.footer-branding a {
+  color: var(--drk-uppertitle-color);
+  text-decoration: none;
+}
+
+.footer-branding a:hover {
+  color: var(--lgt-uppertitle-color);
 }
 
 /* dark theme */
@@ -226,6 +241,16 @@ img {
 }
 
 .dark .contact-icons i:hover {
+  color: var(--drk-uppertitle-color);
+}
+.dark .footer-branding {
+  color: var(--drk-paragraph-color);
+}
+.dark .footer-branding a {
+  color: var(--lgt-uppertitle-color);
+}
+
+.dark .footer-branding a:hover {
   color: var(--drk-uppertitle-color);
 }
 
