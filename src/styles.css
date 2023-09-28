@@ -140,7 +140,7 @@ img {
   justify-content: space-evenly;
   text-align: center;
   font-size: 32px;
-  margin: 30px auto;
+  padding-bottom: 40px;
 }
 
 .contact-icons i {
