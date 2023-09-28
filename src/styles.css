@@ -191,6 +191,14 @@ img {
 .about-container .right-side {
   text-align: left;
 }
+.about-container img {
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+.about-container img:hover {
+  scale: 2;
+  cursor: pointer;
+}
 
 /* dark theme */
 .dark .page-background {
