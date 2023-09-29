@@ -30,6 +30,7 @@
 .page-background {
   text-align: center;
 }
+
 .navbar-toggler-branding {
   border-color: transparent;
   color: var(--lgt-uppertitle-color);
@@ -177,6 +178,7 @@ img {
 }
 
 /*about page*/
+
 .about-container {
 }
 .about-container h1 {
@@ -289,6 +291,14 @@ img {
 
 .dark .footer-branding a:hover {
   color: var(--drk-uppertitle-color);
+}
+
+/*dark about page*/
+.dark .page-background .page-head-paragraph {
+  color: var(--lgt-uppertitle-color);
+}
+.dark .about-container h4 {
+  color: var(--lgt-uppertitle-color);
 }
 
 /* media/resp */
