@@ -127,7 +127,7 @@ h4 {
 
 p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--lgt-paragraph-color);
   line-height: 30px;
 }
@@ -184,6 +184,10 @@ img {
 }
 .about-container h2 {
   font-size: 26px;
+}
+.about-container .right-side p {
+  font-size: 18px;
+  line-height: 23px;
 }
 .about-container .left-side {
   text-align: right;
