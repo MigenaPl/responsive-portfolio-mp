@@ -67,7 +67,7 @@
   color: var(--lgt-btn-background-color);
   border: none;
   text-align: right;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   margin-right: 10px;
 }
 .btn-theme-switch:hover {
@@ -203,6 +203,9 @@ img {
   scale: 1.5;
   cursor: pointer;
 }
+.contact-me {
+  color: var(--drk-uppertitle-color);
+}
 
 /* dark theme */
 .dark .page-background {
@@ -296,6 +299,9 @@ img {
   color: var(--lgt-uppertitle-color);
 }
 .dark .about-container h4 {
+  color: var(--lgt-uppertitle-color);
+}
+.dark .contact-me {
   color: var(--lgt-uppertitle-color);
 }
 
