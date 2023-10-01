@@ -199,6 +199,14 @@ img {
 .about-container .right-side {
   text-align: left;
 }
+.about-container .right-side a {
+  color: var(--drk-uppertitle-color);
+  text-decoration: none;
+}
+.about-container .right-side a:hover {
+  color: var(--lgt-uppertitle-color);
+}
+
 .about-container img {
   border-radius: 10px;
   transition: all 200ms ease-in-out;
@@ -328,6 +336,13 @@ img {
 }
 .dark .about-container h4 {
   color: var(--lgt-uppertitle-color);
+}
+.dark .about-container .right-side a {
+  color: var(--lgt-uppertitle-color);
+  text-decoration: none;
+}
+.dark .about-container .right-side a:hover {
+  color: var(--drk-uppertitle-color);
 }
 .dark .contact-me {
   color: var(--lgt-uppertitle-color);
