@@ -142,7 +142,27 @@ p {
 
 img {
   max-width: 50%;
-  border-radius: 10%;
+  border-radius: 8%;
+}
+
+.footer-container {
+  background-color: var(--lgt-background-color);
+}
+.enquiry-section {
+  padding: 60px 20px 40px;
+}
+.enquiry-section h1 {
+  font-size: 46px;
+}
+.enquiry-section h3 {
+  font-size: 18px;
+  padding: 20px 10px;
+}
+.enquiry-section .btn-branding {
+  background-color: var(--lgt-uppertitle-color);
+}
+.enquiry-section .btn-branding:hover {
+  background-color: var(--drk-uppertitle-color);
 }
 
 .footer-branding {
@@ -279,6 +299,16 @@ img {
 
 .dark p {
   color: var(--drk-paragraph-color);
+}
+
+.dark .footer-container {
+  background-color: var(--drk-background-color);
+}
+.dark .enquiry-section .btn-branding {
+  background-color: var(--drk-uppertitle-color);
+}
+.dark .enquiry-section .btn-branding:hover {
+  background-color: var(--lgt-uppertitle-color);
 }
 
 .dark .footer-branding {
