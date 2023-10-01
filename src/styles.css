@@ -24,6 +24,32 @@
   --drk-btn-text-color: #0f2c59;
   --drk-btn-hover-background-color: #cbaf87;
   --drk-btn-hover-text-color: #0f2c59;
+  /*custom buttons - dev page*/
+  --lgt-btn-a-back: #b5c99a;
+  --lgt-btn-a-text: #fffeec;
+  --lgt-btn-a-hov: #862b0d;
+  --lgt-btn-b-back: #e9db50;
+  --lgt-btn-b-text: #a651b1;
+  --lgt-btn-b-hov: #eb3889;
+  --lgt-btn-c-back: #a68dad;
+  --lgt-btn-c-text: #ffffff;
+  --lgt-btn-c-hov: #7d6e83;
+  --lgt-btn-d-back: #9bbc0f;
+  --lgt-btn-d-text: #0f380f;
+  --lgt-btn-d-hov: #70981c;
+  /*dark custom buttons - dev page*/
+  --drk-btn-a-back: #fffeec;
+  --drk-btn-a-text: #862b0d;
+  --drk-btn-a-hov: #b5c99a;
+  --drk-btn-b-back: #eb3889;
+  --drk-btn-b-text: white;
+  --drk-btn-b-hov: #a651b1;
+  --drk-btn-c-back: #ec6e4c;
+  --drk-btn-c-text: white;
+  --drk-btn-c-hov: #ebbca9;
+  --drk-btn-d-back: #9bbc0f;
+  --drk-btn-d-text: #0f380f;
+  --drk-btn-d-hov: #70981c;
 }
 
 /* light theme */
@@ -413,6 +439,70 @@ img {
   .about-container .right-side {
     text-align: center;
     padding: 5px 20px;
+  }
+  /* developer page */
+  .developer-btn-project-a {
+    background-color: var(--lgt-btn-a-back);
+    color: var(--lgt-btn-a-text);
+  }
+  .developer-btn-project-a:hover {
+    background-color: var(--lgt-btn-a-hov);
+  }
+
+  .developer-btn-project-b {
+    background-color: var(--lgt-btn-b-back);
+    color: var(--lgt-btn-b-text);
+  }
+  .developer-btn-project-b:hover {
+    background-color: var(--lgt-btn-b-hov);
+  }
+
+  .developer-btn-project-c {
+    background-color: var(--lgt-btn-c-back);
+    color: var(--lgt-btn-c-text);
+  }
+  .developer-btn-project-c:hover {
+    background-color: var(--lgt-btn-c-hov);
+  }
+
+  .developer-btn-project-d {
+    background-color: var(--lgt-btn-d-back);
+    color: var(--lgt-btn-d-text);
+  }
+  .developer-btn-project-d:hover {
+    background-color: var(--lgt-btn-d-hov);
+  }
+  /*dark dev page btns*/
+  .dark .developer-btn-project-a {
+    background-color: var(--drk-btn-a-back);
+    color: var(--drk-btn-a-text);
+  }
+  .dark .developer-btn-project-a:hover {
+    background-color: var(--drk-btn-a-hov);
+  }
+
+  .dark .developer-btn-project-b {
+    background-color: var(--drk-btn-b-back);
+    color: var(--drk-btn-b-text);
+  }
+  .dark .developer-btn-project-b:hover {
+    background-color: var(--drk-btn-b-hov);
+  }
+
+  .dark .developer-btn-project-c {
+    background-color: var(--drk-btn-c-back);
+    color: var(--drk-btn-c-text);
+  }
+  .dark .developer-btn-project-c:hover {
+    background-color: var(--drk-btn-c-hov);
+  }
+
+  .dark .developer-btn-project-d {
+    background-color: var(--drk-btn-d-back);
+    color: var(--drk-btn-d-text);
+  }
+  .dark .developer-btn-project-d:hover {
+    background-color: var(--drk-btn-d-hov);
   }
 }
 @media (min-width: 768px) {
